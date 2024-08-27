@@ -8,7 +8,6 @@ import CustomTooltip from './CustomTooltip';
 
 const DailyActivity = () => {
     const {callApi } = useContext(ThemeContext)
-    console.log("is Switch ON?",callApi);
     console.log(
         `%c is Switch ON? ${callApi ? "YES" : "NO"}`,
         `color: ${callApi ? "green" : "crimson" };font-size: 14px;font-weight:bold;background-color:${callApi ? "lightgreen" : "lightpink"};padding:6px 30px;border-radius: 4px;margin-top:5px`,callApi

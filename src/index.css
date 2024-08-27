@@ -141,7 +141,6 @@ p {
 
 .btnUserContainer {
   display: flex;
-  gap: 25px;
 }
 
 .btnUserContainer button {
@@ -155,7 +154,7 @@ p {
   transition: translate 0.2s, box-shadow 0.2s;
 }
 .btnUserContainer button:hover {
-  box-shadow: 0 10px 20px 0 rgba(181, 36, 36, 0.2);
+  box-shadow: 0 10px 20px 0 rgba(113, 36, 181, 0.2);
   translate: 0px -2px;
 }
 
