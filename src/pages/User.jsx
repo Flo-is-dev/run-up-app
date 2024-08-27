@@ -45,7 +45,7 @@ function User() {
         <div className='contentContainer'>
             <div style={{margin: "auto"}}>
                 <h1>Bonjour <span className='red'>{userName}</span></h1>
-                <p>Félicitation ! Vous avez explosé vos objectifs hier 👏</p>
+                <p>{callApi && userName === "" ? "⛔ Nous ne parvenons pas à acceder à vos données. Veuillez réessayer plus tard." : "Félicitation ! Vous avez explosé vos objectifs hier 👏" }</p>
                 <Content userScore={userScore} /> 
             </div>
             
