@@ -11,7 +11,6 @@
   --main-bg-gray: #282d30;
   --main-bg-lightgray: #fbfbfb;
   --main-bg-yellow: #f5e9d1;
-  background-color: #edf1ff;
 }
 
 @font-face {
@@ -39,8 +38,12 @@ button {
 }
 
 .appContainer {
-  max-width: 1440px;
+  background-color: #edf1ff;
   height: 100vh;
+  background-image: url(./assets/img/bg-tablet-pattern.svg);
+  background-repeat: space;
+  background-size: 777px;
+  background-position: 108% -30%;
   /* margin: auto; */
 }
 
@@ -351,6 +354,7 @@ aside small {
   padding-top: 5vh;
   /* padding-right: 70px; */
   overflow: hidden;
+  backdrop-filter: blur(4px);
 }
 
 .contentContainer > p {
